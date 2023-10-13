@@ -41,6 +41,23 @@ html {
 body {
     background-color: rgb(226, 226, 226);
 }
+.overlay { /* I thought the background was too plain
+    so I added an image overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/Texture.jpg') center center fixed;
+    background-size: cover;
+    opacity: 0.03; /* Adjust the opacity for the overlay effect */
+    z-index: 1; /* Place the overlay under? my content */
+}
+.content{
+    position: relative;
+    z-index: 2; /* Place the content above the overlay */ 
+}
+
 
 h1 {
     text-align: center;
@@ -84,14 +101,14 @@ form {
     background-color: rgb(235, 237, 237);
 }
 
-.custom-button { 
+.custom-button { /* custom button class */
     background-color: #3498db; /* Background color */
     color: white; /* Text color */
     padding: 10px 20px; /* Padding around the text */
-    border: none; /* Remove the default border */
+    border: none; /* Remove the border */
     border-radius: 5px; /* Add rounded corners */
     cursor: pointer; /* Display a pointer cursor on hover */
-    transition: background-color 0.2s; /* Add a smooth transition effect */
+    transition: background-color 0.2s; /* A smooth transition effect */
 }
 
 .custom-button:hover {

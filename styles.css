@@ -11,11 +11,12 @@
     text-decoration: none;
     margin: 0 5px;
     padding: 5px 10px;
-    transition: color 0.3s, font-size 0.3s; 
+    font-size: 1em;
+    transition: color 0.3s, font-size 0.4s; 
 }
 /*settings for the hover in my navigation menu */
 .nav-div a:hover {
-    font-size: 1.1em;
+    font-size: 1.08em;
     color: rgb(7, 188, 122);
 }
 
@@ -24,6 +25,9 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
+}
+.images-div img{
+    border-radius: 10px;
 }
 /* my list container */
 .list-container {

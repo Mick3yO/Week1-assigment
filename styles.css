@@ -13,7 +13,6 @@
     padding: 5px 10px;
     transition: color 0.3s, font-size 0.3s; 
 }
-
 .nav-div a:hover {
     font-size: 1.1em;
     color: rgb(7, 188, 122);
